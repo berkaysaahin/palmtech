@@ -8,14 +8,15 @@ const Header = () => {
       <div className="container max-w-screen-l mx-auto px-4">
         <div className="flex flex-wrap items-center">
           <div className="flex-shrink-0 mr-5">
-            <a href="/">
+            <a href="/" className="flex flex-wrap items-center">
               <img
                 src="logo192.png"
                 style={{ height: "50px", width: "60px" }}
                 height="40"
                 width="120"
-                alt="BuyItNow"
+                alt="PalmTech"
               />
+              
             </a>
           </div>
           <Search />
@@ -37,7 +38,7 @@ const Header = () => {
               <i className="text-gray-400 w-5 fa fa-user"></i>
               <span className="hidden lg:inline ml-1">Sign in</span>
             </Link>
-            <Link to="/me">
+            <Link to="/profile">
               <div className="flex items-center mb-4 space-x-3 mt-4 cursor-pointer">
                 <img className="w-10 h-10 rounded-full" src={"logo192.png"} />
                 <div className="space-y-1 font-medium">
