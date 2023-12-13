@@ -1,10 +1,11 @@
-import React from "react";
+import { default as React } from "react";
 import { Link } from "react-router-dom";
 import StarRatings from "react-star-ratings";
 import Filters from "../layout/Filters";
 import Header from "../layout/Header";
 
 const ListProducts = () => {
+  
   return (
     <>
       <Header />
@@ -34,7 +35,7 @@ const ListProducts = () => {
                   </div>
                   <div className="md:w-2/4">
                     <div className="p-4">
-                      <Link to={`/`} className="hover:text-blue-600">
+                      <Link to={'/product/details'} className="hover:text-blue-600">
                         Lorem Ipsum is simply dummy text
                       </Link>
                       <div className="flex flex-wrap items-center space-x-2 mb-2">
