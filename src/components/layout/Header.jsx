@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-main py-2 border-b">
       <div className="container max-w-screen-l mx-auto px-4">
         <div className="flex flex-wrap items-center">
-          <div className="flex-shrink-0 mr-5">
+          <div className="flex items-center space-x-2 ml-auto lg:flex">
             <a href="/" className="flex flex-wrap items-center">
               <img
                 src="logo192.png"
@@ -39,14 +39,12 @@ const Header = () => {
               <span className="hidden lg:inline ml-1">Sign in</span>
             </Link>
             <Link to="/profile">
-              <div className="flex items-center mb-4 space-x-3 mt-4 cursor-pointer">
+              <div className="flex items-center mb-4 space-x-3 mt-4 cursor-pointer rounded-full overflow-hidden">
                 <img className="w-10 h-10 rounded-full" src={"logo192.png"} />
                 <div className="space-y-1 font-medium">
                   <p>
-                    Ghulam
-                    <time className="block text-sm text-gray-500 dark:text-gray-400">
-                      test@gmail.com
-                    </time>
+                    Van Gogh
+                    
                   </p>
                 </div>
               </div>

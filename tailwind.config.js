@@ -2,7 +2,8 @@
 module.exports = {
     theme: {
       colors: {
-        'main': '#94A684'
+        'main': '#94A684',
+        'secondary': '#7ed956'
       }
     }
   }
