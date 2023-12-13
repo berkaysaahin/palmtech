@@ -11,10 +11,10 @@ const Header = () => {
             <a href="/">
               <img
                 src="logo192.png"
-                style={{ height: "50px", width: "60px" }}
+                style={{ height: "120px", width: "120px" }}
                 height="40"
                 width="120"
-                alt="BuyItNow"
+                alt="PalmTech"
               />
             </a>
           </div>
