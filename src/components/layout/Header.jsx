@@ -40,7 +40,7 @@ const Header = () => {
             </Link>
             <Link to="/profile">
               <div className="flex items-center mb-4 space-x-3 mt-4 cursor-pointer rounded-full overflow-hidden">
-                <img className="w-10 h-10 rounded-full" src={"logo192.png"} />
+                <img className="w-10 h-10 rounded-full" src={"profilepic.png"} />
                 <div className="space-y-1 font-medium">
                   <p>
                     Van Gogh

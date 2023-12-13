@@ -8,7 +8,7 @@ const Reviews = () => {
         <div className="flex items-center mb-4 space-x-4">
           <img
             className="w-10 h-10 rounded-full"
-            src={"/logo192.png"}
+            src={"/profilepic.png"}
             alt="user"
           />
           <div className="space-y-1 font-medium">
