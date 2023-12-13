@@ -15,7 +15,7 @@ const ProductDetails = () => {
               <div className="border border-gray-200 shadow-sm p-3 text-center rounded mb-5">
                 <img
                   className="object-cover inline-block"
-                  src="/logo192.png"
+                  src="/monster2.jpeg"
                   alt="Product title"
                   width="340"
                   height="340"
@@ -25,16 +25,17 @@ const ProductDetails = () => {
                 <a className="inline-block border border-gray-200 p-1 rounded-md hover:border-blue-500 cursor-pointer">
                   <img
                     className="w-14 h-14"
-                    src={"/logo192.png"}
+                    src={"/monster2.jpeg"}
                     alt="Product title"
                     width="500"
                     height="500"
                   />
+                  
                 </a>
               </div>
             </aside>
             <main>
-              <h2 className="font-semibold text-2xl mb-4">Product title</h2>
+              <h2 className="font-semibold text-2xl mb-4">Monster Abra A5 V15.8</h2>
 
               <div className="flex flex-wrap items-center space-x-2 mb-2">
                 <div className="ratings">
@@ -61,12 +62,10 @@ const ProductDetails = () => {
                 <span className="text-green-500">Verified</span>
               </div>
 
-              <p className="mb-4 font-semibold text-xl">$234</p>
+              <p className="mb-4 font-semibold text-xl">$1000</p>
 
               <p className="mb-4 text-gray-500">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+              Monster Abra A5 V15.8 Intel Core i7 10750H 8GB 250GB SSD GTX1650Ti Freedos 15.6'' FHD Laptop
               </p>
 
               <div className="flex flex-wrap gap-2 mb-5">
@@ -84,14 +83,14 @@ const ProductDetails = () => {
                 <li className="mb-1">
                   {" "}
                   <b className="font-medium w-36 inline-block">Category:</b>
-                  <span className="text-gray-500">Electonics</span>
+                  <span className="text-gray-500">Electronics</span>
                 </li>
                 <li className="mb-1">
                   {" "}
                   <b className="font-medium w-36 inline-block">
                     Seller / Brand:
                   </b>
-                  <span className="text-gray-500">Apple</span>
+                  <span className="text-gray-500">Monster</span>
                 </li>
               </ul>
             </main>

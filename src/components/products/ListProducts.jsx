@@ -26,7 +26,7 @@ const ListProducts = () => {
                       }}
                     >
                       <img
-                        src={"/logo192.png"}
+                        src={"/monster2.jpeg"}
                         alt="product anme"
                         height="240"
                         width="240"
@@ -36,7 +36,7 @@ const ListProducts = () => {
                   <div className="md:w-2/4">
                     <div className="p-4">
                       <Link to={'/product/details'} className="hover:text-blue-600">
-                        Lorem Ipsum is simply dummy text
+                        Monster Abra A5 V15.8 Intel Core i7 10750H 8GB RAM 500GB SSD 4GB GTX1650Ti FreeDOS 15.6'' FHD 120Hz Laptop
                       </Link>
                       <div className="flex flex-wrap items-center space-x-2 mb-2">
                         <div className="ratings">
@@ -55,16 +55,14 @@ const ListProducts = () => {
                         <span className="ml-1 text-yellow-500">5</span>
                       </div>
                       <p className="text-gray-500 mb-2">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s.
+                      Monster Abra A5 V15.8 Intel Core i7 10750H 8GB 250GB SSD GTX1650Ti Freedos 15.6'' FHD Laptop
                       </p>
                     </div>
                   </div>
                   <div className="md:w-1/4 border-t lg:border-t-0 lg:border-l border-gray-200">
                     <div className="p-5">
                       <span className="text-xl font-semibold text-black">
-                        $989
+                        $1000
                       </span>
 
                       <p className="text-green-500">Free Shipping</p>

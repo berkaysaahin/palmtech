@@ -62,11 +62,11 @@ const Filters = () => {
               <input
                 name="category"
                 type="checkbox"
-                value="Electronics"
+                value="Phones"
                 className="h-4 w-4"
-                defaultChecked={checkHandler("category", "Electronics")}
+                defaultChecked={checkHandler("category", "Phones")}
               />
-              <span className="ml-2 text-gray-500"> Electronics </span>
+              <span className="ml-2 text-gray-500"> Phones </span>
             </label>
           </li>
           <li>
@@ -86,11 +86,11 @@ const Filters = () => {
               <input
                 name="category"
                 type="checkbox"
-                value="Toys"
+                value="Headphones"
                 className="h-4 w-4"
-                defaultChecked={checkHandler("category", "Toys")}
+                defaultChecked={checkHandler("category", "Headphones")}
               />
-              <span className="ml-2 text-gray-500"> Toys </span>
+              <span className="ml-2 text-gray-500"> Headphones </span>
             </label>
           </li>
           <li>
@@ -98,23 +98,11 @@ const Filters = () => {
               <input
                 name="category"
                 type="checkbox"
-                value="Office"
+                value="Keyboard&Mouse"
                 className="h-4 w-4"
-                defaultChecked={checkHandler("category", "Office")}
+                defaultChecked={checkHandler("category", "Keyboard&Mouse")}
               />
-              <span className="ml-2 text-gray-500"> Office </span>
-            </label>
-          </li>
-          <li>
-            <label className="flex items-center">
-              <input
-                name="category"
-                type="checkbox"
-                value="Beauty"
-                className="h-4 w-4"
-                defaultChecked={checkHandler("category", "Beauty")}
-              />
-              <span className="ml-2 text-gray-500"> Beauty </span>
+              <span className="ml-2 text-gray-500"> Keyboard&Mouse </span>
             </label>
           </li>
         </ul>
@@ -124,19 +112,19 @@ const Filters = () => {
         <h3 className="font-semibold mb-2">Ratings</h3>
         <ul className="space-y-1">
           <li>
-            {[5, 4, 3, 2, 1].map((rating) => (
-              <label key={rating} className="flex items-center">
+            {[5, 4, 3, 2, 1].map((ratingValue) => (
+              <label key={ratingValue} className="flex items-center">
                 <input
                   name="ratings"
                   type="checkbox"
-                  value={rating}
+                  value={ratingValue}
                   className="h-4 w-4"
-                  defaultChecked={checkHandler("ratings", `${rating}`)}
+                  defaultChecked={checkHandler("ratings", `${ratingValue}`)}
                 />
                 <span className="ml-2 text-gray-500">
                   {" "}
                   <StarRatings
-                    rating={5}
+                    rating={ratingValue}
                     starRatedColor="#ffb829"
                     numberOfStars={5}
                     starDimension="20px"
@@ -148,6 +136,7 @@ const Filters = () => {
             ))}
           </li>
         </ul>
+
       </div>
     </aside>
   );
