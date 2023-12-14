@@ -20,9 +20,9 @@ const Profile = () => {
                   />
                 </div>
                 <figcaption>
-                  <h5 className="font-semibold text-lg">Ghulam</h5>
+                  <h5 className="font-semibold text-lg">Ahmet</h5>
                   <p>
-                    <b>Email:</b> ghulam@gmail.com | <b>Joined On:</b>
+                    <b>Email:</b> test@gmail.com | <b>Joined On:</b>
                     2023-12-24
                   </p>
                 </figcaption>

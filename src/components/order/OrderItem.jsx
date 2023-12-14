@@ -15,7 +15,7 @@ const OrderItem = () => {
         <div>
           <p className="text-gray-400 mb-1">Person</p>
           <ul className="text-gray-600">
-            <li>Ghulam</li>
+            <li>Ahmet</li>
             <li>Phone: 1234567897</li>
             <li>Email: test@gmail.com</li>
           </ul>

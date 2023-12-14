@@ -30,7 +30,7 @@ const Users = () => {
                 </thead>
                 <tbody>
                   <tr className="bg-white">
-                    <td className="px-6 py-2">Ghulam</td>
+                    <td className="px-6 py-2">Ahmet</td>
                     <td className="px-6 py-2">test@gmail.com</td>
                     <td className="px-6 py-2">admin</td>
                     <td className="px-6 py-2">

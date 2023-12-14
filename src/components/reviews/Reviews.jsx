@@ -13,7 +13,7 @@ const Reviews = () => {
           />
           <div className="space-y-1 font-medium">
             <p>
-              Ghulam
+              Ahmet
               <time className="block text-sm text-gray-500 dark:text-gray-400">
                 Posted on: 12-12-2023
               </time>

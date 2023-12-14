@@ -23,7 +23,7 @@ const UpdateOrder = () => {
                 <div>
                   <p className="text-gray-400 mb-1">Person</p>
                   <ul className="text-gray-600">
-                    <li>Ghulam</li>
+                    <li>Ahmet</li>
                     <li>Phone: 12345667897</li>
                     <li>Email: test@gmail.com</li>
                   </ul>
